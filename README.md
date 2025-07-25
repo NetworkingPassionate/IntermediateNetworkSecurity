@@ -4,8 +4,9 @@ This is a set of intermediate network security tasks!
 
 
 
-<br><br>
-  
+
+
+
 
 ## 🌐 TCP Port Scanner (Python)
 A Python-based tool to check host availability and scan for open TCP ports within a configurable range. Designed for a friendly GUI, speed, and diagnostic feedback.
