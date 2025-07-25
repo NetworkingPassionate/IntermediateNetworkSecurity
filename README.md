@@ -2,6 +2,10 @@
 This is a set of intermediate network security tasks!
 
 
+
+
+  
+
 ## 🌐 TCP Port Scanner (Python)
 A Python-based tool to check host availability and scan for open TCP ports within a configurable range. Designed for a friendly GUI, speed, and diagnostic feedback.
 - 🔍 Scans individual IPs or hostnames across user-defined port ranges
@@ -18,3 +22,48 @@ This TCP-scanner will go through the range, informing the user of open ports.
 <img width="486" height="263" alt="image" src="https://github.com/user-attachments/assets/f774c0df-8aba-4256-8daa-da32169212b6" />
 
 As you can see, this web server has an open port 80 (HTTP), which may be a sign it's redirecting traffic to port 443 for backwards compatibillity of old browsers, but could also be a sign that they're accepting un-encrypted traffic through it. 
+
+
+
+
+
+
+## 🔐 Nessus Essentials Lab: Vulnerability Scanning in Practice
+
+### 🎯 Overview
+This project simulates real-world vulnerability scanning using Tenable Nessus Essentials, conducted entirely within a local lab environment. It demonstrates hands-on proficiency in identifying, categorizing, and remediating security risks across simulated endpoints.
+
+### 🧠 Why It Matters
+Vulnerability assessment is the backbone of proactive cybersecurity. This lab highlights my ability to:
+- Deploy and configure industry-standard tools
+- Navigate authenticated scanning challenges
+- Interpret CVEs and exploit paths
+- Apply remediation and verify risk reduction
+
+### 🛠️ Setup & Configuration
+- Installed Nessus Essentials and configured scans via local web UI (`localhost:8834`)
+- Designed target environments using Windows/Linux VMs with known flaws
+- Enabled credentialed access using registry tweaks (e.g., `LocalAccountTokenFilterPolicy`)
+- Tuned scan profiles for performance vs. depth
+
+### 🔍 Key Activities
+- Ran authenticated and unauthenticated scans on `192.168.x.x/24`
+- Isolated high-severity vulnerabilities and tracked exploitability
+- Applied OS patches and software updates to test remediation
+- Logged scan deltas to confirm fix effectiveness
+- Exported detailed reports for audit and review
+
+### 📊 Skills Demonstrated
+| Category            | Examples                                                      |
+|---------------------|---------------------------------------------------------------|
+| 🔧 Tooling Expertise | Nessus configuration, scan profile tuning, credential setup   |
+| 📋 Analysis          | CVE parsing, severity triage, exploit validation               |
+| 🔄 Lifecycle Testing | Scan → Fix → Re-scan workflows with patch confirmation        |
+| 📁 Reporting         | Exported scan results, annotated findings, documented process |
+
+### 🚀 Next Steps
+- Automate scan workflows via Nessus API integration
+- Correlate scan results with custom dashboards (Splunk, ELK)
+- Extend lab to include vulnerable web apps and password audit tools
+
+---
