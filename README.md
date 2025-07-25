@@ -2,10 +2,7 @@
 <br>
 This is a set of intermediate network security tasks!
 
-
-
-
-
+<br>
 
 
 ## 🌐 TCP Port Scanner (Python)
