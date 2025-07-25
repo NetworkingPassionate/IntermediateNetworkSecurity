@@ -43,7 +43,6 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 ### 🛠️ Setup & Configuration
 - Installed Nessus Essentials and configured scans via local web UI (`localhost:8834`)
 - Designed target environments using Windows/Linux VMs with known flaws
-- Enabled credentialed access using registry tweaks (e.g., `LocalAccountTokenFilterPolicy`)
 - Tuned scan profiles for performance vs. depth
 
 ### 🔍 Key Activities
@@ -60,10 +59,5 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 | 📋 Analysis          | CVE parsing, severity triage, exploit validation               |
 | 🔄 Lifecycle Testing | Scan → Fix → Re-scan workflows with patch confirmation        |
 | 📁 Reporting         | Exported scan results, annotated findings, documented process |
-
-### 🚀 Next Steps
-- Automate scan workflows via Nessus API integration
-- Correlate scan results with custom dashboards (Splunk, ELK)
-- Extend lab to include vulnerable web apps and password audit tools
 
 ---
