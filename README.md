@@ -21,7 +21,7 @@ A Python-based tool to check host availability and scan for open TCP ports withi
 This TCP-scanner will go through the range, informing the user of open ports.
 <img width="486" height="263" alt="image" src="https://github.com/user-attachments/assets/f774c0df-8aba-4256-8daa-da32169212b6" />
 
-As you can see, this web server has an open port 80 (HTTP), which may be a sign it's redirecting traffic to port 443 for backwards compatibillity of old browsers, but could also be a sign that they're accepting un-encrypted traffic through it. 
+Port 80 (HTTP) is open on this web server, which could indicate redirection to HTTPS on port 443 for legacy browser support, or alternatively, suggest that unencrypted traffic is still being permitted.
 
 
 
