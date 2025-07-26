@@ -83,7 +83,7 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 
 
 ### 🧪 Attack Workflow
-# 1. Enable IP forwarding
+### 1. Enable IP forwarding
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 
