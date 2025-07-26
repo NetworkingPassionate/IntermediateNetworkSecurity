@@ -108,7 +108,7 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 | Traffic Generator | Use ping, curl, or a web browser on victim | 
 
 
-<br/><br/>
+<br/>
 ### 🧪 Attack Workflow
 ### 1. Enable IP forwarding
 echo 1 > /proc/sys/net/ipv4/ip_forward
