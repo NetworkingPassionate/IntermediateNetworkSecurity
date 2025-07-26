@@ -42,7 +42,7 @@ Port 80 (HTTP) is open on this web server, which could indicate redirection to H
 - lab_topology.png: Network diagram
 - wireshark_capture.pcap: Sample packet dump (sanitized)
 - README.md: This overview
-
+<br/><br/>
 
 ---
 
@@ -87,7 +87,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 - lab_topology.png: Network diagram
 - wireshark_capture.pcap: Sample packet dump (sanitized)
 - README.md: This overview
-
+<br/><br/>
 
 ---
 
