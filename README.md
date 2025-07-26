@@ -98,7 +98,7 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 
 
 ### 🔒 Optional Mitigations (Proof-of-Concept)
-# Block spoofed traffic using iptables
+#### Block spoofed traffic using iptables
 iptables -A INPUT -m mac --mac-source [attacker_mac] -j DROP
 
 
