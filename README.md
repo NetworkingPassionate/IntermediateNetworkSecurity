@@ -1,5 +1,5 @@
 # IntermediateNetworkSecurity
-<br>
+<br/>s
 This is a set of intermediate network security tasks!
 
 <br/>
@@ -27,7 +27,7 @@ Port 80 (HTTP) is open on this web server, which could indicate redirection to H
 
 
 
-
+<br/><br/><br/>
 ## 🔐 Nessus Essentials Lab: Vulnerability Scanning in Practice
 
 ### 🎯 Overview
@@ -64,13 +64,13 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 
         
 
-<br/><br/>
+<br/><br/><br/>
 ## 🔍 ARP Spoofing Demonstration (Educational Lab)
 🧠 Purpose
 This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in local network trust models. It highlights how attackers manipulate ARP tables to intercept traffic and how security tools can detect or mitigate such behavior.
 ⚠️ This project is strictly educational and intended for controlled lab environments. Always ensure explicit permission before testing on any network.
 
-\ \
+
 
 ### 🛠️ Lab Setup
 | Component | Description | 
@@ -79,7 +79,6 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 | Network Configuration | Same subnet, no dynamic port security | 
 | Traffic Generator | Use ping, curl, or a web browser on victim | 
 
-\
 
 
 ### 🧪 Attack Workflow
