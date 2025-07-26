@@ -2,7 +2,7 @@
 <br/>s
 This is a set of intermediate network security tasks!
 
-<br/>
+<br/><br/>
 
 
 ## 🌐 TCP Port Scanner (Python)
@@ -13,21 +13,21 @@ A Python-based tool to check host availability and scan for open TCP ports withi
 - 💬 Console interaction enhanced with status messages and result formatting
 - 🛠️ Tools Used: Python 3, socket, CLI prompts
 - 📊 Outcome: Confirms host reachability and port exposure, useful for diagnostics or ethical pen-testing
-
+<br/>
   This is our home-page menu. 
 <img width="631" height="432" alt="image" src="https://github.com/user-attachments/assets/e45be81c-4019-411e-931b-fed4c64eefd9" />
-
+<br/>
 This TCP-scanner will go through the range, informing the user of open ports.
 <img width="486" height="263" alt="image" src="https://github.com/user-attachments/assets/f774c0df-8aba-4256-8daa-da32169212b6" />
 
 Port 80 (HTTP) is open on this web server, which could indicate redirection to HTTPS on port 443 for legacy browser support, or alternatively, suggest that unencrypted traffic is still being permitted.
+
+
+
+
+
+
 <br/><br/>
-
-
-
-
-
-<br/><br/><br/>
 ## 🔐 Nessus Essentials Lab: Vulnerability Scanning in Practice
 
 ### 🎯 Overview
@@ -84,17 +84,17 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 ### 🧪 Attack Workflow
 ### 1. Enable IP forwarding
 echo 1 > /proc/sys/net/ipv4/ip_forward
-<br/><br/>
+<br/>
 
 ### 2. Launch ARP spoof against victim and gateway
 arpspoof -i eth0 -t [victim_ip] [gateway_ip]
 arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 
-<br/><br/>
+<br/>
 
 ### 3. Capture traffic (e.g., credentials) with Wireshark
 
-<br/><br/>
+<br/>
 
 
 ### 🔒 Optional Mitigations (Proof-of-Concept)
@@ -102,12 +102,12 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 iptables -A INPUT -m mac --mac-source [attacker_mac] -j DROP
 
 
-<br/><br/>
+<br/>
 ### 📚 Educational Takeaways
 - ARP lacks authentication, making LANs susceptible to spoofing.
 - Dynamic ARP tables can be manipulated silently.
 - Proper segmentation, static ARP, and intrusion detection can help mitigate risks.
-<br/><br/>
+<br/>
 ### 📁 Files Included
 - demo_notes.md: Step-by-step walkthrough
 - lab_topology.png: Network diagram
