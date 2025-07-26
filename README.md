@@ -67,7 +67,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 ## 🔍 ARP Spoofing Demonstration (Educational Lab)
 ### 🧠 Purpose
 This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in local network trust models. It highlights how attackers manipulate ARP tables to intercept traffic and how security tools can detect or mitigate such behavior.
-⚠️ This project is strictly educational and intended for controlled lab environments. Always ensure explicit permission before testing on any network.
+#### ⚠️ This project is strictly educational and intended for controlled lab environments. Always ensure explicit permission before testing on any network.
 
 <br/><br/>
 
