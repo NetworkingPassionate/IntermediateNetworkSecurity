@@ -98,12 +98,12 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 iptables -A INPUT -m mac --mac-source [attacker_mac] -j DROP
 
 
-<br/>
+
 ### 📚 Educational Takeaways
 - ARP lacks authentication, making LANs susceptible to spoofing.
 - Dynamic ARP tables can be manipulated silently.
 - Proper segmentation, static ARP, and intrusion detection can help mitigate risks.
-<br/>
+
 ### 📁 Files Included
 - demo_notes.md: Step-by-step walkthrough
 - lab_topology.png: Network diagram
