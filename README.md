@@ -1,8 +1,8 @@
 # IntermediateNetworkSecurity
-<br/>s
+<br/>
 This is a set of intermediate network security tasks!
 
-<br/><br/>
+<br/>
 
 
 ## 🌐 TCP Port Scanner (Python)
