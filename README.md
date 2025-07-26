@@ -14,7 +14,7 @@ A Python-based tool to check host availability and scan for open TCP ports withi
 - 🛠️ Tools Used: Python 3, socket, CLI prompts
 - 📊 Outcome: Confirms host reachability and port exposure, useful for diagnostics or ethical pen-testing
 <br/>
-  This is our home-page menu. 
+  This is our home-page menu. <br/>
 <img width="631" height="432" alt="image" src="https://github.com/user-attachments/assets/e45be81c-4019-411e-931b-fed4c64eefd9" />
 
 This TCP-scanner will go through the range, informing the user of open ports.
@@ -64,7 +64,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 
         
 
-<br/><br/><br/>
+<br/><br/>
 ## 🔍 ARP Spoofing Demonstration (Educational Lab)
 🧠 Purpose
 This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in local network trust models. It highlights how attackers manipulate ARP tables to intercept traffic and how security tools can detect or mitigate such behavior.
