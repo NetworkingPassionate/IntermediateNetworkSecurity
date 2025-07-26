@@ -71,7 +71,7 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 ⚠️ This project is strictly educational and intended for controlled lab environments. Always ensure explicit permission before testing on any network.
 \ \
 
-### 🛠️ Lab Setup
+# 🛠️ Lab Setup
 | Component | Description | 
 | Test Network | 1 Attacker VM, 1 Victim VM (e.g., Kali + Windows) | 
 | OS & Tools | Kali Linux with arpspoof, wireshark, iptables | 
