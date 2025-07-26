@@ -2,7 +2,7 @@
 <br>
 This is a set of intermediate network security tasks!
 
-<br>
+<br/>
 
 
 ## 🌐 TCP Port Scanner (Python)
@@ -21,7 +21,7 @@ This TCP-scanner will go through the range, informing the user of open ports.
 <img width="486" height="263" alt="image" src="https://github.com/user-attachments/assets/f774c0df-8aba-4256-8daa-da32169212b6" />
 
 Port 80 (HTTP) is open on this web server, which could indicate redirection to HTTPS on port 443 for legacy browser support, or alternatively, suggest that unencrypted traffic is still being permitted.
-<br><br>
+<br/><br/>
 
 
 
@@ -64,7 +64,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 
         
 
-
+<br/><br/>
 ## 🔍 ARP Spoofing Demonstration (Educational Lab)
 🧠 Purpose
 This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in local network trust models. It highlights how attackers manipulate ARP tables to intercept traffic and how security tools can detect or mitigate such behavior.
