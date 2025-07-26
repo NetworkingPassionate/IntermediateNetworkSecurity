@@ -16,7 +16,7 @@ A Python-based tool to check host availability and scan for open TCP ports withi
 <br/>
   This is our home-page menu. 
 <img width="631" height="432" alt="image" src="https://github.com/user-attachments/assets/e45be81c-4019-411e-931b-fed4c64eefd9" />
-<br/>
+
 This TCP-scanner will go through the range, informing the user of open ports.
 <img width="486" height="263" alt="image" src="https://github.com/user-attachments/assets/f774c0df-8aba-4256-8daa-da32169212b6" />
 
