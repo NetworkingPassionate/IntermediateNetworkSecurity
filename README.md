@@ -52,7 +52,8 @@ Port 80 (HTTP) is open on this web server, which could indicate redirection to H
 ## 🔐 Nessus Essentials Lab: Vulnerability Scanning in Practice
 
 ### 🎯 Overview
-This project simulates real-world vulnerability scanning using Tenable Nessus Essentials, conducted entirely within a local lab environment. It demonstrates hands-on proficiency in identifying, categorizing, and remediating security risks across simulated endpoints.
+This project simulates real-world vulnerability scanning using Tenable Nessus Essentials, conducted entirely within a local lab environment. It demonstrates hands-on proficiency in identifying, categorizing, and remediating security risks across simulated endpoints. 
+
 
 ### 🧠 Why It Matters
 Vulnerability assessment is the backbone of proactive cybersecurity. This lab highlights my ability to:
@@ -100,12 +101,23 @@ This lab simulates an ARP spoofing attack to demonstrate vulnerabilities in loca
 
 <br/><br/>
 
+
+
 ### 🛠️ Lab Setup
-| Component | Description | 
-| Test Network | 1 Attacker VM, 1 Victim VM (e.g., Kali + Windows) | 
-| OS & Tools | Kali Linux with arpspoof, wireshark, iptables | 
-| Network Configuration | Same subnet, no dynamic port security | 
-| Traffic Generator | Use ping, curl, or a web browser on victim | 
+
+- Controlled demo in isolated virtual environment — no internet-connected devices involved
+- Machines used:
+  - Kali Linux VM as attacker
+  - Windows or Ubuntu VM as victim
+  - Third VM as gateway or use NAT router simulation
+- Tools:
+  - `arpspoof` (from `dsniff`)
+  - `wireshark` for packet inspection
+  - `iptables` for mitigation testing
+- Network config:
+  - All VMs on same subnet via internal NAT or bridged adapter
+  - Example IPs: Attacker `192.168.56.103`, Victim `192.168.56.104`, Gateway `192.168.56.1`
+- Optional test commands: `ping`, `echo`, or basic file transfers
 
 
 <br/>
