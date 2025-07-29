@@ -37,12 +37,6 @@ Port 80 (HTTP) is open on this web server, which could indicate redirection to H
 
 
 
-### 📁 Files Included
-- demo_notes.md: Step-by-step walkthrough
-- lab_topology.png: Network diagram
-- wireshark_capture.pcap: Sample packet dump (sanitized)
-- README.md: This overview
-<br/><br/>
 
 ---
 
@@ -82,12 +76,7 @@ Vulnerability assessment is the backbone of proactive cybersecurity. This lab hi
 | 🔄 Lifecycle Testing | Scan → Fix → Re-scan workflows with patch confirmation        |
 | 📁 Reporting         | Exported scan results, annotated findings, documented process |
 
-### 📁 Files Included
-- demo_notes.md: Step-by-step walkthrough
-- lab_topology.png: Network diagram
-- wireshark_capture.pcap: Sample packet dump (sanitized)
-- README.md: This overview
-<br/><br/>
+
 
 ---
 
