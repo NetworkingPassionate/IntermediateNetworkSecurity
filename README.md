@@ -137,12 +137,6 @@ arpspoof -i eth0 -t [gateway_ip] [victim_ip]
 <br/>
 
 
-### 📁 Files Included
-- demo_notes.md: Step-by-step walkthrough
-- lab_topology.png: Network diagram
-- wireshark_capture.pcap: Sample packet dump (sanitized)
-- README.md: This overview
-
 
 
 
